@@ -3,7 +3,7 @@ import './App.css'
 import GameBoard from './components/GameBoard'
 
 import logoIcon from './assets/logo.svg'
-import xIcon from './assets/icon-x.svg'
+import xIcon from './assets/icon-x-outline.svg'
 import oIcon from './assets/icon-o.svg'
 
 const initialGameBoard = [
@@ -17,7 +17,7 @@ const PLAYERS = {
   'O': 'player 2'
 }
 
-const initialPage = <div>
+const initialPage = <div className='container main-menu__container'>
   <div className="symbols-container">
     <img src={logoIcon} alt="Logo Icon" />
   </div>
@@ -33,12 +33,14 @@ const initialPage = <div>
     </div>
     <p>Remember: X goes first</p>
   </div>
+  <div className="button-container">
   <button className="btn btn-yellow">
     new game (VS Cpu)
   </button>
   <button className="btn btn-blue">
     new game (vs player)
   </button>
+  </div>
 </div>
 
 function App() {
