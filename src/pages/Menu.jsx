@@ -1,5 +1,5 @@
 import logoIcon from "../assets/logo.svg"
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 export default function Menu({setPlayerHandler, currentPlayer}){
@@ -59,9 +59,9 @@ return(
       <p>Remember: X goes first</p>
     </div>
     <div className="button-container">
-        {/* <Link to='/gameboard'> */}
+        <Link to='/gameboard'>
       <button className="btn btn-yellow">new game (VS Cpu)</button>
-        {/* </Link> */}
+        </Link>
       <button className="btn btn-blue">new game (vs player)</button>
     </div>
   </div>

@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Routes>
       <Route exact path="/" element={<Menu currentPlayer={playerChoice} setPlayerHandler={setPlayerChoice}/>}/>
-      <Route exact path="/gameboard" element={<GameBoard />}/>
+      <Route exact path="/gameboard" element={<GameBoard initialGameBoard={initialGameBoard}/>}/>
       </Routes>
     </Router>
     // <Menu/>
