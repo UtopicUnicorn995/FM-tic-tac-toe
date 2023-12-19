@@ -63,7 +63,7 @@ const initialPage = (
       <p>Remember: X goes first</p>
     </div>
     <div className="button-container">
-      <button className="btn btn-yellow">new game (VS Cpu)</button>
+      <button onClick={() => console.log('fuck you')} className="btn btn-yellow">new game (VS Cpu)</button>
       <button className="btn btn-blue">new game (vs player)</button>
     </div>
   </div>

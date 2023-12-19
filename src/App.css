@@ -55,6 +55,14 @@
   box-shadow: 0px -8px 0px 0px #118C87 inset;
 }
 
+.button-container .btn:active{
+  box-shadow: 0px 0px 0px 0px transparent inset;;
+  padding-bottom: 0;
+  height: 59px;
+  margin-top: 8px;
+}
+
+
 .choose-player__container{
   height: 205px;
   width: 100%;
